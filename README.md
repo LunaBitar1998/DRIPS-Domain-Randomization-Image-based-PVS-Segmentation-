@@ -1,4 +1,4 @@
-# DRIPS: Domain Randomization Image-based PVS Segmentation
+# DRIPS: Domain Randomization for Image-based PVS Segmentation
 
 **DRIPS** is a method for **perivascular space (PVS) segmentation** in brain MRI volumes (NIfTI format).  
 It works with both **T1-weighted** and **T2-weighted** images.  
@@ -16,7 +16,7 @@ It works with both **T1-weighted** and **T2-weighted** images.
 ## How to Deploy
 
 1. **Download DRIPS repository** (this repo).  
-   - Either clone it with Git:  
+   - Clone it with Git:  
      ```bash
      git clone https://github.com/LunaBitar1998/DRIPS-Domain-Randomization-Image-based-PVS-Segmentation.git
      cd DRIPS-Domain-Randomization-Image-based-PVS-Segmentation
@@ -31,28 +31,46 @@ It works with both **T1-weighted** and **T2-weighted** images.
    ```bash
    conda create -n drips python=3.8 -y
    conda activate drips
-4. **Install dependencies**:
+   ```
+
+4. **Install dependencies**:  
+   ```bash
    pip install -r requirements.txt
-5. **Update paths in prediction.py** :
-   Set path_model to the trained model (.h5).
-   Set folder_path to the folder containing your MRI images.
-6. **Run the Prediction** :
-    python Prediction.py
-7. **Outputs generated in the same folder as your input image** :
+   ```
 
-*_segmented.nii.gz → segmentation map (includes all brain structures; PVS is label 6).
+5. **Update paths in `Prediction.py`**:  
+   - Set `path_model` to the trained model (`.h5`).  
+   - Set `folder_path` to the folder containing your MRI images.  
 
-*_posteriors.nii.gz → voxel-wise probability map for PVS (can be thresholded to make a binary mask).
+6. **Run the prediction**:  
+   ```bash
+   python Prediction.py
+   ```
 
-*_volumes.csv → table of segmented volume statistics.
+7. **Outputs generated** in the same folder as your input image:  
+   - `*_segmented.nii.gz` → segmentation map (includes all brain structures; **PVS is label 6**).  
+   - `*_posteriors.nii.gz` → voxel-wise probability map for PVS (can be thresholded to make a binary mask).  
+       
 
+---
 
-## Example 
+## Example
+
 Below is an example of input and output (before and after segmentation):
-## Citation
-  If you use DRIPS in your work, please cite:
- SynthSeg (Benjamin Billot et al.): SynthSeg papers
 
-  DRIPS repository: GitHub link
+📷 *[Insert example image here]*
+
+---
+
+## Citation
+
+If you use **DRIPS** in your work, please cite:  
+
+- **SynthSeg (Benjamin Billot et al.)**: [SynthSeg papers](https://github.com/BBillot/SynthSeg/blob/master/bibtex.bib)  
+- **DRIPS repository**: [GitHub link](https://github.com/LunaBitar1998/DRIPS-Domain-Randomization-Image-based-PVS-Segmentation)  
+
+---
+
 ## License
-   This project is licensed under the Apache License 2.0.
+
+This project is licensed under the **Apache License 2.0**.
