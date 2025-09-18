@@ -28,7 +28,7 @@ Modifications for DRIPS (by Luna Bitar, 2025):
 Citation:
 If you use this file, please cite BOTH:
 - SynthSeg: Benjamin Billot et al. (https://github.com/BBillot/SynthSeg)
-- DRIPS: GitHub repository (https://github.com/<YourUsername>/DRIPS)
+- DRIPS: GitHub repository (https://github.com/LunaBitar1998/DRIPS-Domain-Randomization-Image-based-PVS-Segmentation-)
 
 Copyright  2020 Benjamin Billot
 Modifications © 2025 Luna Bitar
