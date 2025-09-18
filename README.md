@@ -67,7 +67,7 @@ Below is an example of input and output (before and after segmentation):
 If you use **DRIPS** in your work, please cite:  
 
 - **SynthSeg (Benjamin Billot et al.)**: [SynthSeg papers](https://github.com/BBillot/SynthSeg)  
-- **DRIPS repository**: [GitHub link](https://github.com/LunaBitar1998/DRIPS-Domain-Randomization-Image-based-PVS-Segmentation)  
+- **DRIPS repository**: [GitHub link](https://github.com/LunaBitar1998/DRIPS-Domain-Randomization-Image-based-PVS-Segmentation-)  
 
 ---
 
