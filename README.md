@@ -18,7 +18,7 @@ It works with both **T1-weighted** and **T2-weighted** images.
 1. **Download DRIPS repository** (this repo).  
    - Clone it with Git:  
      ```bash
-     git clone https://github.com/LunaBitar1998/DRIPS-Domain-Randomization-Image-based-PVS-Segmentation.git
+     git clone https://github.com/LunaBitar1998/DRIPS-Domain-Randomization-Image-based-PVS-Segmentation-.git
      cd DRIPS-Domain-Randomization-Image-based-PVS-Segmentation
      ```
    - Or download the `.zip` directly from GitHub and extract it.  
