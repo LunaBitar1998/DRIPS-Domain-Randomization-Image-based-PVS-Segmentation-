@@ -1,0 +1,11 @@
+tensorflow==2.8.0
+keras==2.8.0
+h5py==3.11.0
+protobuf==3.20.3
+numpy==1.23.5
+scipy==1.10.1
+scikit-learn==1.3.2
+matplotlib==3.7.5
+pandas==2.0.3
+nibabel==5.2.1
+
