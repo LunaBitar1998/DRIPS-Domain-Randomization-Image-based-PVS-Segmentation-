@@ -54,14 +54,6 @@ It works with both **T1-weighted** and **T2-weighted** images.
 
 ---
 
-## Example
-
-Below is an example of input and output (before and after segmentation):
-
-📷 *[Insert example image here]*
-
----
-
 ## Citation
 
 If you use **DRIPS** in your work, please cite:  
