@@ -23,7 +23,7 @@ License: Apache License 2.0
 import os
 import numpy as np
 from glob import glob
-from SynthSeg.predict import predict
+from ext.predict import predict
 
 # User-defined paths
 path_model = 'Put_your_path_here\trained_Models\Final_model_50_epochs.h5'
