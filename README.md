@@ -23,7 +23,7 @@ It works with both **T1-weighted** and **T2-weighted** images.
      ```
    - Or download the `.zip` directly from GitHub and extract it.  
 
-2. **Download trained model and example data** from the [Releases page](https://github.com/LunaBitar1998/DRIPS-Domain-Randomization-Image-based-PVS-Segmentation/releases).  
+2. **Download trained model and example data** from the [Releases page](https://github.com/LunaBitar1998/DRIPS-Domain-Randomization-Image-based-PVS-Segmentation-/releases/tag/v1.0.0).  
    - `Trained_Model.h5` → model weights.  
    - `Image.zip` → (optional) example MRI volume to test.  
 
