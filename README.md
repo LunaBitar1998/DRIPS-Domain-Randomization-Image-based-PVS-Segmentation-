@@ -3,8 +3,8 @@
 **DRIPS** is a method for **perivascular space (PVS) segmentation** in brain MRI volumes (NIfTI format).  
 It works with both **T1-weighted** and **T2-weighted** images.  
 <p align="center">
-  <img src="examples/original.jpg" alt="Original Image" width="45%"/>
-  <img src="examples/pvs_prediction.jpg" alt="PVS Probability Prediction" width="45%"/>
+  <img src="example/original.png" alt="Original Image" width="45%"/>
+  <img src="example/pvs_prediction.png" alt="PVS Probability Prediction" width="45%"/>
 </p>
 <p align="center">
   <b>Left:</b> Original Image &nbsp;&nbsp; | &nbsp;&nbsp; <b>Right:</b> PVS Probability Prediction
